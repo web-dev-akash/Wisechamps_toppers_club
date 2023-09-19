@@ -1,0 +1,19 @@
+:root {
+  --background: white;
+  --foreground: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  transition: 0.3s linear;
+}
+
+[data-theme='dark'] {
+  --background: black;
+  --foreground: white;
+}
