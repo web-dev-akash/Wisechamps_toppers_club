@@ -46,3 +46,22 @@ $screen-xl-min: 1200px;
     cursor: pointer;
     transform: rotate(60deg) scale(1.5);
 }
+
+.logo {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+
+    @include sm {
+        position: relative;
+        top: unset;
+        left: unset;
+    }
+}
+
+.logo img {
+    @include sm {
+        width: 120px;
+        height: 30px;
+    }
+}

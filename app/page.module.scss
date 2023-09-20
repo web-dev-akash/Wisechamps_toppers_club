@@ -28,9 +28,8 @@ $screen-xl-min: 1200px;
 }
 
 .main {
-  padding: 6rem 18rem;
+  padding: 6rem 10rem;
   min-height: 100vh;
-  border: 1px solid;
 
   @include sm {
     padding: 1rem;
@@ -45,6 +44,6 @@ $screen-xl-min: 1200px;
   }
 
   @include xl {
-    padding: 6rem 10rem;
+    padding: 6rem;
   }
 }

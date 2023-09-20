@@ -1,6 +1,6 @@
 :root {
   --background: white;
-  --foreground: black;
+  --foreground: #212121;
 }
 
 * {
@@ -10,10 +10,11 @@
 }
 
 body {
+  overflow-x: hidden;
   transition: 0.3s linear;
 }
 
 [data-theme='dark'] {
-  --background: black;
+  --background: #212121;
   --foreground: white;
 }

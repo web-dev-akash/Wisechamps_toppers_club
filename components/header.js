@@ -4,6 +4,7 @@ import Link from "next/link";
 import styles from "../styles/header.module.scss";
 import { FiMoon, FiSun } from "react-icons/fi";
 import { useTheme } from "next-themes";
+import Image from "next/image";
 
 export const Header = () => {
   const [mounted, setMounted] = useState(false);
